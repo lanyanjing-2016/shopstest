@@ -1,0 +1,66 @@
+body{font-family: "Microsoft Yahei", Verdana, Simsun, "Segoe UI Web Light", "Segoe UI Light", "Segoe UI Web Regular", "Segoe UI", "Segoe UI Symbol", "Helvetica Neue", Arial}
+.header{height:48px;padding-top:20px;background: #fff;}
+.header img{width:200px;margin: 0 auto;}
+/*图片轮换*/
+.slider{width:100%;height:175px;position:relative;display:none overflow:hidden;background:red}
+.slider img{width:375px;height:175px}
+.slider ul{position:absolute;padding:0;margin:0}
+.slider li{float:left;display:inline-block;width:100%;height:175px}
+.focus{position:absolute;bottom:0px;width:100%;height:20px;z-index:2}
+.focus span{width:10px;height:10px;margin-right:10px;border-radius:50%;background:#666;font-size:0}
+.focus span.current{background:#269abc}
+/*图片轮换结束*/
+.banner_squear{text-align: center;height: auto;overflow: hidden;}
+.banner_squear aside{margin-top: 20px;padding: 0}
+.banner_squear aside a{color: #333;}
+.banner_squear aside span{display: block;margin-top: 5px;}
+.banner_squear img{width:60px;height:60px;}
+/*头条*/
+.headline_info{border-top: 1px solid #c2c2c2;margin-top:15px;padding-top: 8px;}
+.headline_info aside{padding: 0}
+.headline_info .p1{color:#e73887;font-size:20px;font-weight: bolder;border-right: 1px solid #c2c2c2;text-align: center}
+.headline_info .p2{color: #333; text-align: left;padding-left: 5px;font-size: 16px;}
+@media (min-width:320px) {
+    .headline_info .p1{font-size: 16px}
+    .headline_info .p2{font-size: 12px;padding-top: 3px;}
+}
+/*热销产品top3*/
+.headthree_info{border-top:15px solid #f7f7f7;padding:0}
+.headthree_info .p_title{color: #ff1744;padding:8px 15px;font-size:18px;font-weight: bolder; border-bottom: 1px solid #c2c2c2;}
+.headthree_info img{max-width:100px; }
+.headthree_left{margin-top:-10px;padding:0 0 0 15px;}
+.headthree_left .div_top1{padding:10px 5px;}
+.headthree_info .top1{font-size:15px;font-weight: bolder;color: #ff1744;}
+.headthree_info .top2{color:#0288d1}
+.headthree_info .top3{color:#388e3c;}
+.headthree_info .p2{margin-top:-5px}
+.headthree_right{margin-top:-10px;padding-left: 0;border-left: 1px solid #c2c2c2;}
+.headthree_right .div_top2{ height:auto;overflow: hidden; padding:10px 25px 10px 0;}
+.headthree_right .div_top2 .col-xs-6{padding: 0}
+.headthree_right .div_top2 .top2_left{padding:0 5px;}
+.headthree_right .div_top2bottom{border-bottom: 1px solid #c2c2c2;}
+
+/*本周新品*/
+.week_news{border-top:15px solid #f7f7f7;padding:0}
+.week_news .p_title{color: #0288d1;padding:8px 15px;font-size:18px;font-weight: bolder; border-bottom: 1px solid #c2c2c2;}
+.week_news img{max-width:100%;}
+.week_news .row{margin: 0}
+.week_news aside.col-xs-4{margin-top: -10px; padding:0;}
+.week_news .week_newsmiddle{border-left:1px solid #c2c2c2;border-right:1px solid #c2c2c2;}
+.week_news .div_img{border-bottom: 1px solid #c2c2c2;padding: 10px;min-height:140px;}
+.week_news .div_info{padding: 10px;}
+.week_news .div_info .p_price{color: #e73888;font-size: 15px; font-weight: bolder;}
+.week_news .div_info .p_price span{font-size:12px; font-weight: normal; text-decoration: line-through;color:#999;}
+/*大牌精选*/
+.big_selection{border-top:15px solid #f7f7f7;padding:0; background: #f7f7f7;margin-bottom: 78px;}
+.big_selection .p_title{color: #ffba60;padding:8px 15px;font-size:18px;font-weight: bolder; background: #fff;}
+.big_selection img{max-width:100%;}
+.big_selection .row{margin: 0}
+.big_selection aside{ background: #f7f7f7;padding:10px 5px 0;}
+.big_selection .selection_div{background: #fff;padding:5px}
+.big_selection .selection_div .p_price{color: #e73888;font-size: 15px; font-weight: bolder;}
+.big_selection .selection_div .p_price span{display: inline-block;width:56px;height:24px; text-align: center;padding-top: 2px; background: url(../images/price_tip.png);float:right;font-size:12px; font-weight: normal;color:#fff;}
+.footer{min-height: 68px;padding-top: 10px;}
+.footer .glyphicon{font-size: 20px;color:#5b5b5b;}
+.footer .active,.footer .active .glyphicon{color:#e73888;}
+.footer .col-xs-3{padding:0; text-align: center }
